@@ -3,7 +3,6 @@ module github.com/200sc/showspinner
 go 1.17
 
 require (
-	github.com/disintegration/gift v1.2.0
 	github.com/oakmound/oak/v3 v3.2.0
 	golang.org/x/image v0.0.0-20201208152932-35266b937fa6
 )
@@ -12,6 +11,7 @@ require (
 	dmitri.shuralyov.com/gpu/mtl v0.0.0-20201218220906-28db891af037 // indirect
 	github.com/BurntSushi/xgb v0.0.0-20210121224620-deaf085860bc // indirect
 	github.com/BurntSushi/xgbutil v0.0.0-20190907113008-ad855c713046 // indirect
+	github.com/disintegration/gift v1.2.0 // indirect
 	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20210410170116-ea3d685f79fb // indirect
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0 // indirect
 	github.com/hajimehoshi/go-mp3 v0.3.1 // indirect

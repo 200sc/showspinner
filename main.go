@@ -10,7 +10,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/disintegration/gift"
 	"github.com/oakmound/oak/v3"
 	"github.com/oakmound/oak/v3/alg"
 	"github.com/oakmound/oak/v3/alg/floatgeom"
@@ -62,7 +61,7 @@ func main() {
 			}
 
 			bkg, _ := render.LoadSprite("gameshow.png")
-			bkg.Modify(mod.Resize(ctx.Window.Width(), ctx.Window.Height(), gift.CubicResampling))
+			bkg.Modify(mod.Resize(ctx.Window.Width(), ctx.Window.Height(), mod.CubicResampling))
 			ctx.Window.(*oak.Window).SetBackground(bkg)
 
 			totalSlices := 26.0
